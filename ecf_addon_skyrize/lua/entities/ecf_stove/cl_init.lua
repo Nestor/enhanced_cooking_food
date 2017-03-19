@@ -65,7 +65,7 @@ local butPos3 = self:GetPos()+(self:GetUp()*13)+(self:GetForward()*20)+(self:Get
 			surface.SetDrawColor(Color(55, 55, 55, 255));
 			surface.DrawRect(-185, -110, 810/2 -10, 140)
 		
-			surface.SetDrawColor( ecf_color_stove );
+			surface.SetDrawColor( Color(58,133,177) );
 			surface.DrawRect(-180, -105, 800/2 -15, 130)
 		
 
@@ -79,7 +79,7 @@ local butPos3 = self:GetPos()+(self:GetUp()*13)+(self:GetForward()*20)+(self:Get
 			if (LocalPlayer():GetEyeTrace().HitPos:Distance(butPos1)<3) then
 				surface.SetDrawColor(Color(75, 75, 75, 200));
 			else
-				surface.SetDrawColor( ecf_color_stove );
+				surface.SetDrawColor(  Color(58,133,177) );
 			end;	
 
 			surface.DrawRect(-120 + 495/2, -50/2  +78, 80, 70)
@@ -87,7 +87,7 @@ local butPos3 = self:GetPos()+(self:GetUp()*13)+(self:GetForward()*20)+(self:Get
 			if (LocalPlayer():GetEyeTrace().HitPos:Distance(butPos2)<3) then
 				surface.SetDrawColor(Color(75, 75, 75, 200));
 			else
-				surface.SetDrawColor( ecf_color_stove );
+				surface.SetDrawColor(  Color(58,133,177));
 			end
 
 
