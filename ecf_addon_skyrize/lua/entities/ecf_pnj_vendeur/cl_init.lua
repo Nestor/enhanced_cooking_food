@@ -73,6 +73,7 @@ DermaButton.DoClick = function()
 		net.WriteString(idselect)
 		net.WriteString(numcount)
 	net.SendToServer()
+	MainAccept:Remove()
 end
 DermaButton.Paint = function( self, w, h )
 		draw.SimpleText( "Confirmer", "CenterPrintText", w/2, h/2, Color( 255, 255, 255 ), 1, 1 )
