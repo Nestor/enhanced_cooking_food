@@ -25,7 +25,6 @@ function ENT:Draw()
 				surface.SetTextColor( 255, 255, 255, 255 )
 				surface.SetTextPos(-80, -95/2  +78 + 38)
 				surface.DrawText( "Commencer la cuisson" )
-			end
 
 
 		cam.End3D2D()
